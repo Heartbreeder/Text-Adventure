@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: 5 Seek Vengeance
+  m_EditorClassIdentifier: 
+  ChapterName: Seek Vengeance
+  ChapterBackground: {fileID: 21300000, guid: 22c1008c04e8a5e4e94d74da9a6b310e, type: 3}
+  ChapterBackgroundFront: {fileID: 21300000, guid: df0045495c5fbba438d634ec567c14ea,
+    type: 3}
+  ChapterBGM: {fileID: 8300000, guid: 165897ab9dcb1a549a108cc6f364826b, type: 3}
+  ChapterPages:
+  - ChapterPage: 'SMACK!
+
+      
+
+'
+    TransitionSFX: {fileID: 8300000, guid: 8f77f38175c1f1948b7e09024ae69ec9, type: 3}
+  - ChapterPage: "The head priest Smacks you across the face with a furious look
+      in his eyes. \nHow dare you talk about vengeance in this sacred temple? \nHave
+      you learned nothing all this time in here?"
+    TransitionSFX: {fileID: 0}
+  - ChapterPage: As the Head priest turns to leave you on the floor with a swollen
+      cheek you notice that in his fury he dropped the library's key.
+    TransitionSFX: {fileID: 0}
+  PlayerChoices:
+  - ChoiceDescription: Grab the key and sneak into the library.
+    ChoiceAnswer: You grab the key and hide it until nightfall.
+    VirtueCounter: -1
+    NextChapter: {fileID: 11400000, guid: 9c38bf5e1adc2d643ada432aaa01603c, type: 2}
+  - ChoiceDescription: Leave the key and the temple and become chosen on your own.
+    ChoiceAnswer: You decide to leave the temple with ony a few posessions.
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 17e6b0ee893adf3489d5858c99c62136, type: 2}

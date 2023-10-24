@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: 13 Hard in Hightown
+  m_EditorClassIdentifier: 
+  ChapterName: Hard in Hightown
+  ChapterBackground: {fileID: 21300000, guid: 22ca5dc9d2776c947825e1f9662921e7, type: 3}
+  ChapterBackgroundFront: {fileID: 21300000, guid: 443b1a44f29e7094a91d151c9e16c7e1,
+    type: 3}
+  ChapterBGM: {fileID: 8300000, guid: 8a4cc26be67eb864b90845ec1ba377d1, type: 3}
+  ChapterPages:
+  - ChapterPage: The story follows Donnen Brennkovic and his recruit Jevlan who investigate
+      various murders in a town called Hightown...
+    TransitionSFX: {fileID: 0}
+  - ChapterPage: "You read for hours and realise this has nothing to do with Bahamut.
+      \nYour eyes are weary..."
+    TransitionSFX: {fileID: 0}
+  - ChapterPage: "You fall asleep. \nYou are woken up by the furious screams of the
+      head priest over your head. \nYou were locked in a cellar for a week for punishment."
+    TransitionSFX: {fileID: 0}
+  PlayerChoices:
+  - ChoiceDescription: Wait for a week.
+    ChoiceAnswer: 
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 2454c1cff1e381747be501f6a4fd8457, type: 2}

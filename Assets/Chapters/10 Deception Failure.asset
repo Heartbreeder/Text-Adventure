@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: 10 Deception Failure
+  m_EditorClassIdentifier: 
+  ChapterName: Deception failure
+  ChapterBackground: {fileID: 21300000, guid: 22c1008c04e8a5e4e94d74da9a6b310e, type: 3}
+  ChapterBackgroundFront: {fileID: 21300000, guid: df0045495c5fbba438d634ec567c14ea,
+    type: 3}
+  ChapterBGM: {fileID: 8300000, guid: 165897ab9dcb1a549a108cc6f364826b, type: 3}
+  ChapterPages:
+  - ChapterPage: '"If you really wanted to become Bahamut''s chosen you would know
+      not to lie.Perish these thoughts from your mind and be on your way."'
+    TransitionSFX: {fileID: 0}
+  PlayerChoices:
+  - ChoiceDescription: Steal the key to the monastery library.
+    ChoiceAnswer: You decide to steal the monastery key at night.
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 4c13e80553b36cb4aa571901ac4b6a30, type: 2}
+  - ChoiceDescription: Perish the thought.
+    ChoiceAnswer: 
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 2454c1cff1e381747be501f6a4fd8457, type: 2}

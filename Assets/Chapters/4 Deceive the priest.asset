@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: 4 Deceive the priest
+  m_EditorClassIdentifier: 
+  ChapterName: Deceiving the Priest
+  ChapterBackground: {fileID: 21300000, guid: 22c1008c04e8a5e4e94d74da9a6b310e, type: 3}
+  ChapterBackgroundFront: {fileID: 21300000, guid: df0045495c5fbba438d634ec567c14ea,
+    type: 3}
+  ChapterBGM: {fileID: 8300000, guid: 165897ab9dcb1a549a108cc6f364826b, type: 3}
+  ChapterPages:
+  - ChapterPage: 'The priest''s eyes lighten up.
+
+      "Really? And what did Bahamut
+      say to you?"'
+    TransitionSFX: {fileID: 0}
+  PlayerChoices:
+  - ChoiceDescription: (Lie) You are my chosen! Seek my power!
+    ChoiceAnswer: 
+    VirtueCounter: -1
+    NextChapter: {fileID: 11400000, guid: 121f4f0341e3188468fbe5c54225e9b2, type: 2}
+  - ChoiceDescription: (Lie) He didn't speak himself. His seven servants disguised
+      as canaries appeared in my dream and showed me a more powerful version of myself.
+    ChoiceAnswer: 
+    VirtueCounter: -1
+    NextChapter: {fileID: 11400000, guid: fee09d97f5d1f7049a23ef8b05da01c1, type: 2}
+  - ChoiceDescription: Ok, I'm sorry I lied. But I really want to know how to become
+      chosen!
+    ChoiceAnswer: 
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 121f4f0341e3188468fbe5c54225e9b2, type: 2}

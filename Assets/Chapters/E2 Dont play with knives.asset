@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: E2 Dont play with knives
+  m_EditorClassIdentifier: 
+  ChapterName: Don't play with knives.
+  ChapterBackground: {fileID: 21300000, guid: eac4b6d9ec71a084d8eee47e83ca7e0d, type: 3}
+  ChapterBackgroundFront: {fileID: 0}
+  ChapterBGM: {fileID: 8300000, guid: b6b10d3d60a11584f9a52367bfcb8eb1, type: 3}
+  ChapterPages:
+  - ChapterPage: 'Shortly after you cut yourself you lost consciousness and never
+      woke up again.
+
+      The Head priest woke up in the morning in a pool of your
+      blood.
+
+      Don''t play with knives!'
+    TransitionSFX: {fileID: 0}
+  PlayerChoices: []

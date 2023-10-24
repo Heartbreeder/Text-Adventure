@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: 1 The Head Priest
+  m_EditorClassIdentifier: 
+  ChapterName: The Head Priest
+  ChapterBackground: {fileID: 21300000, guid: 22c1008c04e8a5e4e94d74da9a6b310e, type: 3}
+  ChapterBackgroundFront: {fileID: 21300000, guid: df0045495c5fbba438d634ec567c14ea,
+    type: 3}
+  ChapterBGM: {fileID: 8300000, guid: 165897ab9dcb1a549a108cc6f364826b, type: 3}
+  ChapterPages:
+  - ChapterPage: "After the morining sermon you seek the head priest. \nWhen you
+      ask how you can become Bahamut's chosen, his fase shows an angry expression,
+      unlike any you have seen before.\r\n\"These matters are not for someone your
+      age. You should let the adults handle such matters.\""
+    TransitionSFX: {fileID: 0}
+  PlayerChoices:
+  - ChoiceDescription: As the sacred texts say, age is not a restriction for someone
+      to become Bahamut's chosen.
+    ChoiceAnswer: You decide to persuade the priest.
+    VirtueCounter: 1
+    NextChapter: {fileID: 11400000, guid: b367735f75a324c46a74dd78471c5e12, type: 2}
+  - ChoiceDescription: (Lie) Bahamut spoke to me in a dream.
+    ChoiceAnswer: You decide to deceive the priest.
+    VirtueCounter: -1
+    NextChapter: {fileID: 11400000, guid: 8a44432917aa69440aa1ced0e5005dfd, type: 2}
+  - ChoiceDescription: I want to avenge my homeland!
+    ChoiceAnswer: You decide to give in to your anger.
+    VirtueCounter: -1
+    NextChapter: {fileID: 11400000, guid: c82c4804ca30072428c5e0143a395285, type: 2}

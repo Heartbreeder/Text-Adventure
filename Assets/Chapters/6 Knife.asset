@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: 6 Knife
+  m_EditorClassIdentifier: 
+  ChapterName: Knife
+  ChapterBackground: {fileID: 21300000, guid: 3c2a591521387704780e6b4c0809d508, type: 3}
+  ChapterBackgroundFront: {fileID: 21300000, guid: 2f9fdddbdead06c429acacc798b73663,
+    type: 3}
+  ChapterBGM: {fileID: 8300000, guid: 9f67f23f65d1a5c4fbb26e573430490d, type: 3}
+  ChapterPages:
+  - ChapterPage: You attempt to cut the rope around the priest's neck being very
+      careful not to cut the head priest.
+    TransitionSFX: {fileID: 0}
+  - ChapterPage: You are very focused.
+    TransitionSFX: {fileID: 0}
+  - ChapterPage: 'CRASH!
+
+      A sudden loud noise is heard from outside the temple
+      and startles you.
+
+      You realise it was nothing.'
+    TransitionSFX: {fileID: 8300000, guid: 9bd0801906d386d4c91ab5c9abfae294, type: 3}
+  - ChapterPage: "You return to cutting the rope when you realise you cut your wirst
+      with the knife.\r"
+    TransitionSFX: {fileID: 0}
+  PlayerChoices:
+  - ChoiceDescription: Attempt to stop the bleeding.
+    ChoiceAnswer: You try to stop the bleeding but soon pass out.
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 1deb2f2b6d6a99a4db51e2bd7429ab21, type: 2}

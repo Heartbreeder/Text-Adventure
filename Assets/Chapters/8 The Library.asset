@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: 8 The Library
+  m_EditorClassIdentifier: 
+  ChapterName: The Library
+  ChapterBackground: {fileID: 21300000, guid: 22ca5dc9d2776c947825e1f9662921e7, type: 3}
+  ChapterBackgroundFront: {fileID: 21300000, guid: 443b1a44f29e7094a91d151c9e16c7e1,
+    type: 3}
+  ChapterBGM: {fileID: 8300000, guid: 8a4cc26be67eb864b90845ec1ba377d1, type: 3}
+  ChapterPages:
+  - ChapterPage: "The darkest hours of the night pass as you scour through the books.
+      \nYou feel like you could fall asleep at any moment but you have narrowed your
+      search to three books.\r\nYou should choose carefully."
+    TransitionSFX: {fileID: 0}
+  PlayerChoices:
+  - ChoiceDescription: Worshipping bahamut for dummies.
+    ChoiceAnswer: 
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 6a696a54e8d28fe47ab607b33f2b13ae, type: 2}
+  - ChoiceDescription: The Life of Bezelgos.
+    ChoiceAnswer: 
+    VirtueCounter: 1
+    NextChapter: {fileID: 11400000, guid: 81962214881ca724a9de04df5751f5d9, type: 2}
+  - ChoiceDescription: Hard in Hightown.
+    ChoiceAnswer: 
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 778fad1baa9eb4746a3d3789b58eb002, type: 2}

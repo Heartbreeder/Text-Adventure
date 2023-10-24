@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267761c665be3a4680bbdb0df682a51, type: 3}
+  m_Name: 12 The life of Bezelgos
+  m_EditorClassIdentifier: 
+  ChapterName: The Life of Bezelgos
+  ChapterBackground: {fileID: 21300000, guid: 22ca5dc9d2776c947825e1f9662921e7, type: 3}
+  ChapterBackgroundFront: {fileID: 21300000, guid: 443b1a44f29e7094a91d151c9e16c7e1,
+    type: 3}
+  ChapterBGM: {fileID: 8300000, guid: 8a4cc26be67eb864b90845ec1ba377d1, type: 3}
+  ChapterPages:
+  - ChapterPage: "You start to read about the life of the last man who became Bahamut's
+      Chosen. \nBezelgos is said to have proven himself by embracing the four aspects
+      of Bahamut's worship."
+    TransitionSFX: {fileID: 8300000, guid: cf5c99024fcf0924480f186334da6ad4, type: 3}
+  - ChapterPage: "Actions that abide by the laws, A heart that is naturally good,
+      \nA back that protects life and a body prepared for war.\r\nYou realise these
+      may have some importance."
+    TransitionSFX: {fileID: 0}
+  - ChapterPage: Bahamut gained the acceptance of Bahamut at the central temple of
+      Draconia. Invigorated you prepare to depart before the crack of dawn!
+    TransitionSFX: {fileID: 0}
+  PlayerChoices:
+  - ChoiceDescription: Start Journey.
+    ChoiceAnswer: You start journeying towards Draconia.
+    VirtueCounter: 0
+    NextChapter: {fileID: 11400000, guid: 8cd78c1583e52ce41910499dfafefbe3, type: 2}
